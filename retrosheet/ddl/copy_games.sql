@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+-- Load the events data into the games table.
+-- Change /path/to/game*year*.csv where you have stored the Retrosheet csv game
+-- files. You must specify the full path
+--------------------------------------------------------------------------------
+
+copy games from "/path/to/game1950.csv" with csv header;
+copy games from "/path/to/game1951.csv" with csv header;
+copy games from "/path/to/game1952.csv" with csv header;
+copy games from "/path/to/game1953.csv" with csv header;
+copy games from "/path/to/game1954.csv" with csv header;
+copy games from "/path/to/game1955.csv" with csv header;
+copy games from "/path/to/game1956.csv" with csv header;
+copy games from "/path/to/game1957.csv" with csv header;
+copy games from "/path/to/game1958.csv" with csv header;
+copy games from "/path/to/game1959.csv" with csv header;
+copy games from "/path/to/game1960.csv" with csv header;
+copy games from "/path/to/game1961.csv" with csv header;
+copy games from "/path/to/game1962.csv" with csv header;
+copy games from "/path/to/game1963.csv" with csv header;
+copy games from "/path/to/game1964.csv" with csv header;
+copy games from "/path/to/game1965.csv" with csv header;
+copy games from "/path/to/game1966.csv" with csv header;
+copy games from "/path/to/game1967.csv" with csv header;
+copy games from "/path/to/game1968.csv" with csv header;
+copy games from "/path/to/game1969.csv" with csv header;
+copy games from "/path/to/game1970.csv" with csv header;
+copy games from "/path/to/game1971.csv" with csv header;
+copy games from "/path/to/game1972.csv" with csv header;
+copy games from "/path/to/game1973.csv" with csv header;
+copy games from "/path/to/game1974.csv" with csv header;
+copy games from "/path/to/game1975.csv" with csv header;
+copy games from "/path/to/game1976.csv" with csv header;
+copy games from "/path/to/game1977.csv" with csv header;
+copy games from "/path/to/game1978.csv" with csv header;
+copy games from "/path/to/game1979.csv" with csv header;
+copy games from "/path/to/game1980.csv" with csv header;
+copy games from "/path/to/game1981.csv" with csv header;
+copy games from "/path/to/game1982.csv" with csv header;
+copy games from "/path/to/game1983.csv" with csv header;
+copy games from "/path/to/game1984.csv" with csv header;
+copy games from "/path/to/game1985.csv" with csv header;
+copy games from "/path/to/game1986.csv" with csv header;
+copy games from "/path/to/game1987.csv" with csv header;
+copy games from "/path/to/game1988.csv" with csv header;
+copy games from "/path/to/game1989.csv" with csv header;
+copy games from "/path/to/game1990.csv" with csv header;
+copy games from "/path/to/game1991.csv" with csv header;
+copy games from "/path/to/game1992.csv" with csv header;
+copy games from "/path/to/game1993.csv" with csv header;
+copy games from "/path/to/game1994.csv" with csv header;
+copy games from "/path/to/game1995.csv" with csv header;
+copy games from "/path/to/game1996.csv" with csv header;
+copy games from "/path/to/game1997.csv" with csv header;
+copy games from "/path/to/game1998.csv" with csv header;
+copy games from "/path/to/game1999.csv" with csv header;
+copy games from "/path/to/game2000.csv" with csv header;
+copy games from "/path/to/game2001.csv" with csv header;
+copy games from "/path/to/game2002.csv" with csv header;
+copy games from "/path/to/game2003.csv" with csv header;
+copy games from "/path/to/game2004.csv" with csv header;
+copy games from "/path/to/game2005.csv" with csv header;
+copy games from "/path/to/game2006.csv" with csv header;
+copy games from "/path/to/game2007.csv" with csv header;
+copy games from "/path/to/game2008.csv" with csv header;
+copy games from "/path/to/game2009.csv" with csv header;
+copy games from "/path/to/game2010.csv" with csv header;
+copy games from "/path/to/game2011.csv" with csv header;
+copy games from "/path/to/game2012.csv" with csv header;
+copy games from "/path/to/game2013.csv" with csv header;
+copy games from "/path/to/game2014.csv" with csv header;

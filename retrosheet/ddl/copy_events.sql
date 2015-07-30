@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+-- Load the events data into the events table.
+-- Change /path/to/all*year*.csv where you have stored the Retrosheet csv events
+-- files. You must specify the full path
+-------------------------------------------------------------------------------
+
+copy events from "/path/to/all1950.csv" with csv header;
+copy events from "/path/to/all1951.csv" with csv header;
+copy events from "/path/to/all1952.csv" with csv header;
+copy events from "/path/to/all1953.csv" with csv header;
+copy events from "/path/to/all1954.csv" with csv header;
+copy events from "/path/to/all1955.csv" with csv header;
+copy events from "/path/to/all1956.csv" with csv header;
+copy events from "/path/to/all1957.csv" with csv header;
+copy events from "/path/to/all1958.csv" with csv header;
+copy events from "/path/to/all1959.csv" with csv header;
+copy events from "/path/to/all1960.csv" with csv header;
+copy events from "/path/to/all1961.csv" with csv header;
+copy events from "/path/to/all1962.csv" with csv header;
+copy events from "/path/to/all1963.csv" with csv header;
+copy events from "/path/to/all1964.csv" with csv header;
+copy events from "/path/to/all1965.csv" with csv header;
+copy events from "/path/to/all1966.csv" with csv header;
+copy events from "/path/to/all1967.csv" with csv header;
+copy events from "/path/to/all1968.csv" with csv header;
+copy events from "/path/to/all1969.csv" with csv header;
+copy events from "/path/to/all1970.csv" with csv header;
+copy events from "/path/to/all1971.csv" with csv header;
+copy events from "/path/to/all1972.csv" with csv header;
+copy events from "/path/to/all1973.csv" with csv header;
+copy events from "/path/to/all1974.csv" with csv header;
+copy events from "/path/to/all1975.csv" with csv header;
+copy events from "/path/to/all1976.csv" with csv header;
+copy events from "/path/to/all1977.csv" with csv header;
+copy events from "/path/to/all1978.csv" with csv header;
+copy events from "/path/to/all1979.csv" with csv header;
+copy events from "/path/to/all1980.csv" with csv header;
+copy events from "/path/to/all1981.csv" with csv header;
+copy events from "/path/to/all1982.csv" with csv header;
+copy events from "/path/to/all1983.csv" with csv header;
+copy events from "/path/to/all1984.csv" with csv header;
+copy events from "/path/to/all1985.csv" with csv header;
+copy events from "/path/to/all1986.csv" with csv header;
+copy events from "/path/to/all1987.csv" with csv header;
+copy events from "/path/to/all1988.csv" with csv header;
+copy events from "/path/to/all1989.csv" with csv header;
+copy events from "/path/to/all1990.csv" with csv header;
+copy events from "/path/to/all1991.csv" with csv header;
+copy events from "/path/to/all1992.csv" with csv header;
+copy events from "/path/to/all1993.csv" with csv header;
+copy events from "/path/to/all1994.csv" with csv header;
+copy events from "/path/to/all1995.csv" with csv header;
+copy events from "/path/to/all1996.csv" with csv header;
+copy events from "/path/to/all1997.csv" with csv header;
+copy events from "/path/to/all1998.csv" with csv header;
+copy events from "/path/to/all1999.csv" with csv header;
+copy events from "/path/to/all2000.csv" with csv header;
+copy events from "/path/to/all2001.csv" with csv header;
+copy events from "/path/to/all2002.csv" with csv header;
+copy events from "/path/to/all2003.csv" with csv header;
+copy events from "/path/to/all2004.csv" with csv header;
+copy events from "/path/to/all2005.csv" with csv header;
+copy events from "/path/to/all2006.csv" with csv header;
+copy events from "/path/to/all2007.csv" with csv header;
+copy events from "/path/to/all2008.csv" with csv header;
+copy events from "/path/to/all2009.csv" with csv header;
+copy events from "/path/to/all2010.csv" with csv header;
+copy events from "/path/to/all2011.csv" with csv header;
+copy events from "/path/to/all2012.csv" with csv header;
+copy events from "/path/to/all2013.csv" with csv header;
+copy events from "/path/to/all2014.csv" with csv header;
