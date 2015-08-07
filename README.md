@@ -19,28 +19,28 @@ The Retrosheet database is similar to the one Jeff Zimmerman provides at [Baseba
 This is now really easy as Chadwick is available via the Mac OSX package manager, [Homebrew](http://brew.sh/).
 
 ```bash
-brew install chadwick
+$ brew install chadwick
 ```
 #### Download the Data from [Retrosheet](http://retrosheet.org/)
 First creating a directory to hold all the Retrosheet data is probably best. I set mine up to contain both ```parsed``` and ```unparsed``` directories.
 Then we will move into the unparsed directory.
 
 ```sh
-mkdir -p /path/to/retrosheet/{unparsed,parsed}
-cd /path/to/retrosheet/unparsed
+$ mkdir -p /path/to/retrosheet/{unparsed,parsed}
+$ cd /path/to/retrosheet/unparsed
 ```
 All of the following shell commands were inspired by the shell [retrosheet_get](https://github.com/wa-rufio/retrosheet_get)
 script created by [wa-rufio](https://github.com/wa-rufio).
 
 ```sh
 # you can set startDecade to whichever decade you like
-startDecade=1950 endDecade=2010
-while [ $startDecade -le $endDecade ] ; do
-wget http://www.retrosheet.org/events/"$startDecade"seve.zip
-let startDecade=startDecade+10
-done
+$ startDecade=1950 endDecade=2010
+$ while [ $startDecade -le $endDecade ] ; do
+$ http://www.retrosheet.org/events/"$startDecade"seve.zip
+$ let startDecade=startDecade+10
+$ done
 # unzip the downloaded files
-find . -name "*.zip" -exec unzip {} \; -exec /bin/rm {} \;
+$ find . -name "*.zip" -exec unzip {} \; -exec /bin/rm {} \;
 ```
 
 ### Parse the Data
@@ -49,9 +49,9 @@ and ```subs``` for each year. Make sure you are still in the ```unparsed``` dire
 
 ```sh
 # variables for first and last year
-x=1950 y=2014
-for (( i=$x; i<=$y; i++)); do cwevent -n -f 0-96 -x 0-60 -y "$i" "$i"*.EV* > ../parsed/all"$i".csv; done
-for (( i=$x; i<=$y; i++)); do cwgame -n -f 0-83 -x 0-94 -y "$i" "$i"*.EV* > ../parsed/games"$i".csv; done
-for (( i=$x; i<=$y; i++)); do cwsub -n -f 0-9 -y "$i" "$i"*.EV* > ../parsed/sub"$i".csv; done
+$ x=1950 y=2014
+$ for (( i=$x; i<=$y; i++)); do cwevent -n -f 0-96 -x 0-60 -y "$i" "$i"*.EV* > ../parsed/all"$i".csv; done
+$ for (( i=$x; i<=$y; i++)); do cwgame -n -f 0-83 -x 0-94 -y "$i" "$i"*.EV* > ../parsed/games"$i".csv; done
+$ for (( i=$x; i<=$y; i++)); do cwsub -n -f 0-9 -y "$i" "$i"*.EV* > ../parsed/sub"$i".csv; done
 ```
 
