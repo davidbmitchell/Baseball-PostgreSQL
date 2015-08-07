@@ -11,7 +11,7 @@ First create a new schema in you retrosheet databaseThe files are numbered and a
 
 ```bash
 ├── 01_complete_innings.sql
-├── 02_fate_runs_complete.sql
+├── 02_fate_runs.sql
 ├── 03_batter_runner_runs.sql
 ├── 04_inning_runs.sql
 ├── 05_run_expectancy.sql

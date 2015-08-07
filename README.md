@@ -55,3 +55,7 @@ $ for (( i=$x; i<=$y; i++)); do cwgame -n -f 0-83 -x 0-94 -y "$i" "$i"*.EV* > ..
 $ for (( i=$x; i<=$y; i++)); do cwsub -n -f 0-9 -y "$i" "$i"*.EV* > ../parsed/sub"$i".csv; done
 ```
 
+	The information used here was obtained free of charge from 
+	and is copyrighted by Retrosheet. Interested parties may 
+	contact Retrosheet at "www.retrosheet.org".
+
