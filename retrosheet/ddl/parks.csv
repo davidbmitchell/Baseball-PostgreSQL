@@ -1,4 +1,4 @@
-PARKID,NAME,CITY,STATE,START,END,LEAGUE,AKA
+PARKID,NAME,CITY,STATE,START_DATE,END_DATE,LEAGUE,AKA
 ALB01,Riverside Park,Albany,NY,18800911,18820530,NL,Greenbush Grounds
 ALT01,Columbia Park,Altoona,PA,18840430,18840531,UA,4th Ave Grounds; Waverly Field
 ANA01,Angel Stadium of Anaheim,Anaheim,CA,19660419,,AL,Anaheim Stadium; Edison Field

@@ -376,8 +376,8 @@ create table subs (
 -- ----------------------------------------------------------------------------
 drop table if exists players;
 create table players (
-    last text,
-    first text,
+    last_name text,
+    first_name text,
     id char(8),
     debut date
 );
@@ -390,8 +390,8 @@ create table parks (
     park_id char(5),
     name text,
     state text,
-    start date,
-    end date,
+    start_date date,
+    end_date date,
     league char(2),
     notes text,
     aka text
