@@ -161,7 +161,9 @@ create table events (
     ass7_fld_cd int,
     ass8_fld_cd int,
     ass9_fld_cd int,
-    ass10_fld_cd int
+    ass10_fld_cd int,
+    unknown_out_exc_fl boolean,
+    uncertain_play_exc_fl boolean
 );
 
 --------------------------------------------------------------------------------
